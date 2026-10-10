@@ -1,54 +1,59 @@
---Readme document for *YOUR NAME*, *YOUR_EMAIL@uci.edu*--
+Readme document for Stella (Yuxuan) Jiang, jyxsju@gmail.com
 
-A reminder on academic integrity, as described in the syllabus.
+1. How many assignment points do you believe you completed?
 
-In general, the course staff expects that you will look at code and examples from many online resources as part of the assignments, particularly to resolve syntax and understand frameworks. We expect that you'll use other libraries you find, and will even require it in some assignments. These practices are often critical to the work of developers today. The best developers are adept at interpreting the examples they see, customizing them to their specific situation, and citing their sources so they can find them later. We expect you to do the same.
-
-While learning from examples is encouraged, attempting to pass an existing project or example from the web as your own is not allowed. If you ever have a question about what is or is not appropriate, feel free to ask the course staff!
-
-Talking to classmates about class material, assignment requirements, etc. is a great way to verify ideas and get feedback. But this distinctly does *not* permit attempting to pass off someone else’s code as your own. Talking over ideas and approaches is allowed, but the work that you produce and submit must be your own.
-
-1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
-
-*/10
-- */1 Readme
-- */2 Basic HTML content
-- */1 Basic CSS styling
-- */1 Advanced feature
-- */2 Responsive layout
-- */1 Passes validation checks
-- */2 Embraces spirit of the assignment
+10/10
+- 1/1 Readme
+- 2/2 Basic HTML content
+- 1/1 Basic CSS styling
+- 1/1 Advanced feature
+- 2/2 Responsive layout
+- 1/1 Passes validation checks
+- 2/2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-
-
+- Semantic HTML structure using header, nav, main, section, article, figure, details, and footer.
+- Text content with headings, paragraphs, lists, links, and an email link.
+- An original SVG illustration with descriptive alternative text.
+- Four project summaries and a contact section with external profile links.
 
 (b) CSS features
-
-
+- Custom colors, typography, spacing, borders, shadows, and rounded shapes.
+- CSS Grid and Flexbox for the navigation, hero, project cards, process, skill groups, and footer.
+- Responsive breakpoints for tablet and mobile layouts.
+- Visible keyboard focus styles, hover states, and high-contrast buttons.
 
 (c) Advanced features
+- Responsive design that adapts the navigation, project grid, metrics, buttons, and page sections across desktop, tablet, and phone widths.
+- A native interactive details/summary component in the About section.
+- A reduced-motion media query and a keyboard-accessible skip link.
+- An original scalable SVG graphic stored locally, so the page does not rely on external assets.
 
+3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern?
 
-
-
-3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
-
-
+No accessibility errors were intentionally ignored. The page uses a logical heading order, semantic landmarks, descriptive link text, alternative text for the meaningful image, keyboard focus indicators, and sufficient color contrast. The decorative project numbers and visual status dot are hidden from assistive technology where appropriate.
 
 4. How long, in hours, did it take you to complete this assignment?
 
+Approximately 4 hours for planning, implementation, responsive testing, validation, and documentation. I will update this estimate if I make additional revisions before submitting.
 
+5. What online resources did you consult when completing this assignment?
 
-5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
-
-
+- MDN responsive design overview: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design
+- MDN CSS Grid guide: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout
+- MDN details element reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details
+- W3C HTML validator: https://validator.w3.org/
+- W3C CSS validator: https://jigsaw.w3.org/css-validator/
+- WAVE accessibility checker: https://wave.webaim.org/
+- The instructor-provided starter repository and assignment instructions.
+- OpenAI Codex was used to interpret the rubric, organize verified resume content, draft semantic HTML and responsive CSS, and review the implementation for accessibility. I reviewed the generated structure, wording, and code and accepted the final implementation.
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 
-
+I did not consult classmates or other individuals for this assignment.
 
 7. Is there anything special we need to know in order to run your code?
 
+No installation or build step is required. Unzip the submission and open index.html directly in a modern browser. All styles and visual assets use relative local paths.

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 660" role="img" aria-labelledby="title description">
+  <title id="title">Software signal pipeline</title>
+  <desc id="description">Abstract nodes and paths show information moving through a software system toward a completed product.</desc>
+  <rect width="600" height="660" rx="30" fill="#13213c"/>
+  <path d="M80 120h170c58 0 58 82 116 82h154" fill="none" stroke="#8799ff" stroke-width="18" stroke-linecap="round"/>
+  <path d="M80 330h85c58 0 58-80 116-80h58c58 0 58 80 116 80h65" fill="none" stroke="#78d9b6" stroke-width="18" stroke-linecap="round"/>
+  <path d="M80 530h170c58 0 58-84 116-84h154" fill="none" stroke="#ff7868" stroke-width="18" stroke-linecap="round"/>
+  <g fill="#f7f9ff" stroke="#13213c" stroke-width="8">
+    <circle cx="80" cy="120" r="28"/>
+    <circle cx="520" cy="202" r="28"/>
+    <circle cx="80" cy="330" r="28"/>
+    <circle cx="300" cy="250" r="28"/>
+    <circle cx="520" cy="330" r="28"/>
+    <circle cx="80" cy="530" r="28"/>
+    <circle cx="520" cy="446" r="28"/>
+  </g>
+  <rect x="216" y="287" width="168" height="128" rx="24" fill="#3657d6" stroke="#f7f9ff" stroke-width="7"/>
+  <path d="M258 351h84M300 309v84" stroke="#f7f9ff" stroke-width="12" stroke-linecap="round"/>
+  <text x="300" y="610" fill="#d7deef" font-family="Arial, sans-serif" font-size="22" text-anchor="middle" letter-spacing="4">SIGNAL → SYSTEM → VALUE</text>
+</svg>
