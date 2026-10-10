@@ -33,7 +33,7 @@ Readme document for Stella (Yuxuan) Jiang, jyxsju@gmail.com
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern?
 
-No accessibility errors were intentionally ignored. The page uses a logical heading order, semantic landmarks, descriptive link text, alternative text for the meaningful image, keyboard focus indicators, and sufficient color contrast. The decorative project numbers and visual status dot are hidden from assistive technology where appropriate.
+AChecker reported 0 Known Problems and 0 Likely Problems under WCAG 2.0 Level AA. It also listed 47 Potential Problems, which are prompts for human review rather than confirmed failures. I manually checked the logical heading order, semantic landmarks, descriptive link text, image alternative text, keyboard focus indicators, and color contrast. Lighthouse also gave the page an accessibility score of 100. The decorative project numbers and visual status dot are hidden from assistive technology where appropriate.
 
 4. How long, in hours, did it take you to complete this assignment?
 
