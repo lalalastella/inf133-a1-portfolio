@@ -24,7 +24,7 @@ Readme document for Stella (Yuxuan) Jiang, jyxsju@gmail.com
 This completes all six listed basic HTML options and exceeds the three-feature requirement.
 
 (b) CSS features
-- Custom colors, typography, spacing, borders, shadows, and rounded shapes. Padding and margins create readable visual grouping throughout both pages.
+- Custom colors, typography, spacing, borders, shadows, and rounded shapes. Padding and margins create readable visual grouping throughout all four pages.
 - CSS Grid and Flexbox for the navigation, hero, project cards, process, skill groups, and footer.
 - Responsive breakpoints for tablet and mobile layouts.
 - Visible keyboard focus styles, hover states, and high-contrast buttons.
