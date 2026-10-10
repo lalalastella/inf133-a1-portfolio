@@ -41,6 +41,8 @@ This directly satisfies the listed spacing and custom-color options, in addition
 
 AChecker reported 0 Known Problems and 0 Likely Problems for both HTML pages under WCAG 2.0 Level AA. It listed 47 Potential Problems for index.html and 38 for projects.html; these are prompts for human review rather than confirmed failures. I manually checked the logical heading order, semantic landmarks, descriptive link text, image alternative text, keyboard focus indicators, table header relationships, and color contrast. Lighthouse also gave the main page an accessibility score of 100. The decorative project numbers and visual status dot are hidden from assistive technology where appropriate.
 
+The W3C CSS validator reported 0 errors and 7 warnings. The warnings concern the system-font fallback stack, CSS variables that the validator cannot evaluate statically, and foreground or background colors inherited from parent elements. These choices are intentional: each component inherits a defined readable color combination, and the rendered pages were manually reviewed at desktop, tablet, and mobile sizes. No CSS syntax warning indicates an invalid rule.
+
 4. How long, in hours, did it take you to complete this assignment?
 
 Approximately 4 hours for planning, implementation, responsive testing, validation, and documentation.
@@ -64,3 +66,9 @@ I did not consult classmates or other individuals for this assignment.
 7. Is there anything special we need to know in order to run your code?
 
 No installation or build step is required. Unzip the submission and open index.html directly in a modern browser. All styles and visual assets use relative local paths.
+
+Validation evidence is included as separate image files:
+- valid-html-index.jpg and valid-accessibility-achecker.jpg document index.html.
+- valid-html-projects.jpg and valid-accessibility-projects-achecker.jpg document projects.html.
+- valid-css-styles.jpg documents the shared styles.css file used by both pages.
+- valid-accessibility-lighthouse.jpg is an additional accessibility audit for the main page.
