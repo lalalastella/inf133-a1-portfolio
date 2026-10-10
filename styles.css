@@ -412,6 +412,13 @@ h3 { line-height: 1.25; }
 .about { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: clamp(2rem, 8vw, 8rem); }
 .about .section-heading { display: block; margin: 0; }
 .about .section-heading h2 { max-width: 12ch; }
+.about-mascot {
+  width: clamp(8rem, 16vw, 11rem);
+  margin-top: 2rem;
+  image-rendering: pixelated;
+  filter: drop-shadow(0 0.8rem 1.2rem rgba(255, 120, 104, 0.18));
+  transform: rotate(-2deg);
+}
 .about-copy { max-width: 62ch; color: var(--muted); font-size: 1.08rem; }
 
 details { margin-top: 2rem; padding: 1.2rem 1.35rem; color: var(--ink); background: white; border: 1px solid var(--line); border-radius: 1rem; }
@@ -599,6 +606,7 @@ tbody td { color: var(--muted); }
   .project-featured { gap: 1rem; }
   .project-result { grid-column: 1; }
   .project-card { min-height: auto; }
+  .about-mascot { width: 8rem; margin-top: 1.5rem; }
   .hero-actions .button,
   .contact-links a { width: 100%; }
   footer { gap: 1rem; align-items: flex-start; flex-direction: column; }

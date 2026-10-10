@@ -14,7 +14,7 @@ Readme document for Stella (Yuxuan) Jiang, jyxsju@gmail.com
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-- Image: the original system-signal.svg illustration appears in index.html with descriptive alternative text.
+- Images: the original system-signal.svg illustration and Stella's orange pixel-cat mascot appear in index.html with descriptive alternative text.
 - Headings and text: both pages use a logical h1-h3 hierarchy, paragraphs, and lists.
 - External links: the Contact section links to LinkedIn and GitHub and includes an email link.
 - Multiple pages: index.html and projects.html use consistent navigation in both directions.
@@ -36,6 +36,7 @@ This directly satisfies the listed spacing and custom-color options, in addition
 - A native interactive details/summary component in the About section.
 - A reduced-motion media query and a keyboard-accessible skip link.
 - An original scalable SVG graphic stored locally, so the page does not rely on external assets.
+- A personal pixel-art cat mascot, optimized as a transparent local PNG and styled responsively in the About section.
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern?
 
