@@ -57,7 +57,7 @@ Approximately 4 hours for planning, implementation, responsive testing, validati
 - AChecker accessibility checker: https://achecks.org/achecker/
 - Chrome Lighthouse accessibility audit.
 - The instructor-provided starter repository and assignment instructions.
-- OpenAI Codex was used to interpret the rubric, organize verified resume content, draft semantic HTML and responsive CSS, and review the implementation for accessibility. I reviewed the generated structure, wording, and code and accepted the final implementation.
+- OpenAI Codex was used to help interpret the rubric, draft portions of the HTML and CSS, review the code, and suggest rubric-based accessibility and responsive-design improvements. I reviewed the work, made the final decisions, and verified the finished portfolio.
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
 
