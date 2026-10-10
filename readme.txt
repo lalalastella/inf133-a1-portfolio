@@ -17,7 +17,8 @@ Readme document for Stella (Yuxuan) Jiang, jyxsju@gmail.com
 - Semantic HTML structure using header, nav, main, section, article, figure, details, and footer.
 - Text content with headings, paragraphs, lists, links, and an email link.
 - An original SVG illustration with descriptive alternative text.
-- Four project summaries and a contact section with external profile links.
+- Multiple linked pages: index.html and projects.html, with consistent navigation between them.
+- Project summaries, detailed case studies, and a contact section with external profile links.
 
 (b) CSS features
 - Custom colors, typography, spacing, borders, shadows, and rounded shapes.
@@ -28,12 +29,13 @@ Readme document for Stella (Yuxuan) Jiang, jyxsju@gmail.com
 (c) Advanced features
 - Responsive design that adapts the navigation, project grid, metrics, buttons, and page sections across desktop, tablet, and phone widths.
 - A native interactive details/summary component in the About section.
+- A multi-column project evidence table with a caption and scoped row and column headers for screen-reader navigation.
 - A reduced-motion media query and a keyboard-accessible skip link.
 - An original scalable SVG graphic stored locally, so the page does not rely on external assets.
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern?
 
-AChecker reported 0 Known Problems and 0 Likely Problems under WCAG 2.0 Level AA. It also listed 47 Potential Problems, which are prompts for human review rather than confirmed failures. I manually checked the logical heading order, semantic landmarks, descriptive link text, image alternative text, keyboard focus indicators, and color contrast. Lighthouse also gave the page an accessibility score of 100. The decorative project numbers and visual status dot are hidden from assistive technology where appropriate.
+AChecker reported 0 Known Problems and 0 Likely Problems for both HTML pages under WCAG 2.0 Level AA. It listed 47 Potential Problems for index.html and 38 for projects.html; these are prompts for human review rather than confirmed failures. I manually checked the logical heading order, semantic landmarks, descriptive link text, image alternative text, keyboard focus indicators, table header relationships, and color contrast. Lighthouse also gave the main page an accessibility score of 100. The decorative project numbers and visual status dot are hidden from assistive technology where appropriate.
 
 4. How long, in hours, did it take you to complete this assignment?
 

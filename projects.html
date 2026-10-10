@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Stella (Yuxuan) Jiang">
+  <meta name="description" content="Selected software engineering and applied AI case studies by Stella Jiang.">
+  <title>Selected Work | Stella Jiang</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Stella Jiang, home">
+      <span class="brand-mark" aria-hidden="true">SJ</span>
+      <span>Stella Jiang</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html" aria-current="page">Work</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="subpage-hero" aria-labelledby="page-title">
+      <p class="eyebrow">Selected work</p>
+      <h1 id="page-title">Engineering decisions, traced to outcomes.</h1>
+      <p>These case studies show how I frame ambiguous problems, choose an implementation path, and measure whether the resulting system actually works.</p>
+    </section>
+
+    <section class="case-study-list" aria-label="Project case studies">
+      <article class="case-study">
+        <header>
+          <p class="project-label">Alibaba Cloud Intelligence Group</p>
+          <h2>Campus platform and retrieval evaluation</h2>
+        </header>
+        <div class="case-study-grid">
+          <section aria-labelledby="alibaba-problem">
+            <h3 id="alibaba-problem">Problem</h3>
+            <p>Campus services needed dependable transaction handling, while the retrieval system needed evidence that its search quality held up beyond a few examples.</p>
+          </section>
+          <section aria-labelledby="alibaba-build">
+            <h3 id="alibaba-build">What I built</h3>
+            <p>I implemented backend workflows and created a repeatable retrieval benchmark with 778 source entries and 6,562 evaluation queries.</p>
+          </section>
+          <section aria-labelledby="alibaba-result">
+            <h3 id="alibaba-result">Result</h3>
+            <p>The BGE pipeline reached 76.40% Top-1 and 91.34% Top-3 accuracy, supported by 371 automated tests and a 999-item post-regression check.</p>
+          </section>
+        </div>
+        <ul class="tag-list" aria-label="Alibaba project technologies">
+          <li>Python</li><li>FastAPI</li><li>PostgreSQL</li><li>RAG</li><li>Evaluation</li>
+        </ul>
+      </article>
+
+      <article class="case-study">
+        <header>
+          <p class="project-label">FessorAI</p>
+          <h2>AI textbook authoring workflow</h2>
+        </header>
+        <div class="case-study-grid">
+          <section aria-labelledby="fessor-problem">
+            <h3 id="fessor-problem">Problem</h3>
+            <p>Long-form educational content requires research, structure, drafting, and review, but generic chat interfaces hide those stages inside one conversation.</p>
+          </section>
+          <section aria-labelledby="fessor-build">
+            <h3 id="fessor-build">What I built</h3>
+            <p>I designed a six-stage workflow and a 28-tool assistant that makes each authoring step visible, editable, and easier to review.</p>
+          </section>
+          <section aria-labelledby="fessor-result">
+            <h3 id="fessor-result">Result</h3>
+            <p>The product turns an open-ended generation task into a structured process where authors can inspect intermediate work rather than accept a black-box output.</p>
+          </section>
+        </div>
+        <ul class="tag-list" aria-label="FessorAI project technologies">
+          <li>TypeScript</li><li>React</li><li>Agent workflows</li><li>Product design</li>
+        </ul>
+      </article>
+
+      <article class="case-study">
+        <header>
+          <p class="project-label">FocusTrail</p>
+          <h2>Local-first adaptive task coach</h2>
+        </header>
+        <div class="case-study-grid">
+          <section aria-labelledby="focus-problem">
+            <h3 id="focus-problem">Problem</h3>
+            <p>Task plans become obsolete as soon as priorities change, and sending every personal detail to a remote model creates unnecessary privacy risk.</p>
+          </section>
+          <section aria-labelledby="focus-build">
+            <h3 id="focus-build">What I built</h3>
+            <p>I modeled work as a task graph, added adaptive replanning, and designed privacy-aware routing that keeps sensitive requests local when possible.</p>
+          </section>
+          <section aria-labelledby="focus-result">
+            <h3 id="focus-result">Result</h3>
+            <p>The prototype treats planning as a changing system rather than a static checklist, while making the privacy decision part of the architecture.</p>
+          </section>
+        </div>
+        <ul class="tag-list" aria-label="FocusTrail project technologies">
+          <li>Python</li><li>Task DAGs</li><li>Local AI</li><li>Privacy routing</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="evidence-section" aria-labelledby="evidence-title">
+      <div class="section-heading compact-heading">
+        <p class="eyebrow">Evidence map</p>
+        <h2 id="evidence-title">What each project demonstrates</h2>
+        <p>A compact view of the engineering signal behind each case study.</p>
+      </div>
+      <div class="table-wrap" role="region" tabindex="0" aria-label="Scrollable project evidence table">
+        <table>
+          <caption>Engineering evidence across selected projects</caption>
+          <thead>
+            <tr>
+              <th id="col-project" scope="col">Project</th>
+              <th id="col-focus" scope="col">Primary focus</th>
+              <th id="col-evidence" scope="col">Evidence</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th id="row-alibaba" scope="row" headers="col-project">Alibaba campus systems</th>
+              <td headers="row-alibaba col-focus">Backend reliability and retrieval quality</td>
+              <td headers="row-alibaba col-evidence">6,562 queries, 91.34% Top-3 accuracy, 371 tests</td>
+            </tr>
+            <tr>
+              <th id="row-fessor" scope="row" headers="col-project">FessorAI</th>
+              <td headers="row-fessor col-focus">Human-centered agent workflow</td>
+              <td headers="row-fessor col-evidence">Six stages and 28 purpose-built tools</td>
+            </tr>
+            <tr>
+              <th id="row-focus" scope="row" headers="col-project">FocusTrail</th>
+              <td headers="row-focus col-focus">Adaptive planning and privacy</td>
+              <td headers="row-focus col-evidence">Task graph, replanning, and local routing</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="next-step" aria-labelledby="next-title">
+      <p class="eyebrow">Continue exploring</p>
+      <h2 id="next-title">The projects make more sense with the person behind them.</h2>
+      <a class="button button-primary" href="index.html#about">Read about my approach</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>Designed and built by Stella Jiang.</p>
+    <a href="index.html">Return home <span aria-hidden="true">→</span></a>
+  </footer>
+</body>
+</html>
